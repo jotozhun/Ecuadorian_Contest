@@ -6,7 +6,7 @@ public class CharacterMovement : MonoBehaviour
 {
 
     [SerializeField]
-    private CharacterController character_controller;
+    private Rigidbody2D character_rigidbody;
 
     [SerializeField]
     private float speed_x;
@@ -14,6 +14,10 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField]
     private float speed_y;
 
+    [SerializeField]
+    private Vector2 speed;
+
+    private Vector2 movement;
     void Update()
     {
         PlayerMovement();
@@ -21,9 +25,12 @@ public class CharacterMovement : MonoBehaviour
 
     void PlayerMovement()
     {
-        float vel_x = Input.GetAxis(ConstantUtilities.HORIZONTAL_MOVEMENT) * speed_x * Time.deltaTime;
-        float vel_y = Input.GetAxis(ConstantUtilities.VERTICAL_MOVEMENT) * speed_y * Time.deltaTime;
+        movement.x = Input.GetAxis(ConstantUtilities.HORIZONTAL_MOVEMENT);
+        movement.y = Input.GetAxis(ConstantUtilities.VERTICAL_MOVEMENT);
+    }
 
-        character_controller.Move(new Vector3(vel_x, vel_y, 0f));
+    private void FixedUpdate()
+    {
+        character_rigidbody.MovePosition(character_rigidbody.position + movement * speed * Time.fixedDeltaTime);
     }
 }

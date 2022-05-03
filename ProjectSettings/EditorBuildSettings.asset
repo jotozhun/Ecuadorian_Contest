@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Intro.unity
     guid: b175ceba0d39ea647a01c60ad24d58fe
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: fb84277383a6b9d4d9006de885b60be3
+  - enabled: 1
+    path: Assets/Scenes/MitadMundo.unity
+    guid: a14b312fafb048541ad08e4fe88a6ddc
   - enabled: 1
     path: Assets/Scenes/DamaTapada.unity
     guid: 6c17a3eccffae1b488b34fafe100d553
