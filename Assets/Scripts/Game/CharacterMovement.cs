@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+       [SerializeField]
+    private Animator character_animator;
 
     [SerializeField]
     private Rigidbody2D character_rigidbody;
@@ -21,6 +23,7 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
         PlayerMovement();
+        Animate();
     }
 
     void PlayerMovement()
@@ -32,5 +35,11 @@ public class CharacterMovement : MonoBehaviour
     private void FixedUpdate()
     {
         character_rigidbody.MovePosition(character_rigidbody.position + movement * speed * Time.fixedDeltaTime);
+    }
+
+    void Animate()
+    {
+        character_animator.SetFloat("Look X", moveDirection.x);
+        character_animator.SetFloat("Look Y", moveDirection.y);
     }
 }
