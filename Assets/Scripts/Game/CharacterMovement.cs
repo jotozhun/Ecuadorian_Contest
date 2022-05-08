@@ -39,7 +39,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Animate()
     {
-        character_animator.SetFloat("Look X", moveDirection.x);
-        character_animator.SetFloat("Look Y", moveDirection.y);
+        character_animator.SetFloat("Look X", movement.x);
+        character_animator.SetFloat("Look Y", movement.y);
     }
 }
