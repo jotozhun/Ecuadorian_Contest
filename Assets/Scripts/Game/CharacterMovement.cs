@@ -20,6 +20,8 @@ public class CharacterMovement : MonoBehaviour
     private Vector2 speed;
 
     private Vector2 movement;
+
+    Vector2 look_direction = new Vector2(1, 0);
     void Update()
     {
         PlayerMovement();
@@ -28,18 +30,22 @@ public class CharacterMovement : MonoBehaviour
 
     void PlayerMovement()
     {
-        movement.x = Input.GetAxis(ConstantUtilities.HORIZONTAL_MOVEMENT);
-        movement.y = Input.GetAxis(ConstantUtilities.VERTICAL_MOVEMENT);
+        if(!Mathf.Approximately(movement.x, 0.0f) || !Mathf.Approximately(movement.y, 0.0f))
+        {
+            character_animator.SetFloat("Look X", movement.x);
+            character_animator.SetFloat("Look Y", movement.y);
+        }
+        movement.x = Input.GetAxis(ConstantUtilities.HORIZONTAL_MOVEMENT) * speed.x;
+        movement.y = Input.GetAxis(ConstantUtilities.VERTICAL_MOVEMENT) * speed.y;
     }
 
     private void FixedUpdate()
     {
-        character_rigidbody.MovePosition(character_rigidbody.position + movement * speed * Time.fixedDeltaTime);
+        character_rigidbody.MovePosition(character_rigidbody.position + movement * Time.fixedDeltaTime);
     }
 
     void Animate()
     {
-        character_animator.SetFloat("Look X", movement.x);
-        character_animator.SetFloat("Look Y", movement.y);
+        character_animator.SetFloat("Speed", movement.magnitude);
     }
 }

@@ -388,7 +388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &565954586
 Animator:
   serializedVersion: 3
@@ -696,7 +696,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -43683622004612731, guid: 67928b0b0667da54695e92342406b30c, type: 3}
+  m_Sprite: {fileID: -2984016697927752071, guid: 8c5fff486df39884ba0503e1a379fe23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -716,7 +716,7 @@ Transform:
   m_GameObject: {fileID: 696636179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.2483177, y: 0.2483177, z: 0.2483177}
+  m_LocalScale: {x: 0.2483177, y: 0.2483177, z: 0.2483177}
   m_Children: []
   m_Father: {fileID: 1314228301}
   m_RootOrder: 0
@@ -1351,7 +1351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c623ee5bd0473b438d70adc143856d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character_animator: {fileID: 0}
+  character_animator: {fileID: 696636182}
   character_rigidbody: {fileID: 1314228299}
   speed_x: 4
   speed_y: 3
@@ -1364,7 +1364,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314228298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.15, y: -9.49, z: -3.083535}
+  m_LocalPosition: {x: -29.25, y: -9.49, z: -3.083535}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 696636181}
