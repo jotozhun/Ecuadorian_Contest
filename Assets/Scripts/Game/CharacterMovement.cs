@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-       [SerializeField]
+    [SerializeField]
     private Animator character_animator;
 
     [SerializeField]
@@ -18,6 +18,7 @@ public class CharacterMovement : MonoBehaviour
 
     [SerializeField]
     private Vector2 speed;
+
 
     private Vector2 movement;
 
@@ -48,4 +49,5 @@ public class CharacterMovement : MonoBehaviour
     {
         character_animator.SetFloat("Speed", movement.magnitude);
     }
+
 }
