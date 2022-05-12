@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DamaTapada.unity
     guid: 6c17a3eccffae1b488b34fafe100d553
+  - enabled: 1
+    path: Assets/Scenes/AtahualpaPresentacion.unity
+    guid: 60f3d9f95232d9a48b0c2f8cebc4916f
+  - enabled: 1
+    path: Assets/Scenes/Guayaquil.unity
+    guid: 96fd76ef70cf8d844b282b5127f2b374
   m_configObjects: {}
