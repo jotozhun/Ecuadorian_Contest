@@ -5,8 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public float FOLLOWSPEED = 2f;
-    [SerializeField]
-    private Transform player_target;
+    public Transform player_target;
     public Vector2 minPosition;
     public Vector2 maxPosition;
 

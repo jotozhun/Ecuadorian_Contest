@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 5fbc028f820f1bd4e894be591c1bebdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2407597655890901907
+    second: prota_m_libro_1
+  - first:
+      213: 8904634814172453998
+    second: prota_m_libro_2
+  - first:
+      213: -6547690840178002232
+    second: prota_m_libro_3
+  - first:
+      213: -8030381430659521234
+    second: prota_m_libro_0
+  - first:
+      213: 1817774234960814793
+    second: prota_m_libro_4
+  - first:
+      213: 812444736298934585
+    second: prota_m_libro_5
+  - first:
+      213: 7804444112312909450
+    second: prota_m_libro_6
+  - first:
+      213: -761449242273356929
+    second: prota_m_libro_7
+  - first:
+      213: 3014702564841795401
+    second: prota_m_libro_8
+  - first:
+      213: 7855487222138675047
+    second: prota_m_libro_9
+  - first:
+      213: 5034079300250815179
+    second: prota_m_libro_10
+  - first:
+      213: -2422081438550247176
+    second: prota_m_libro_11
+  - first:
+      213: 1615300609493011392
+    second: prota_m_libro_12
+  - first:
+      213: -5898762554648919763
+    second: prota_m_libro_13
+  - first:
+      213: 7944656831076770577
+    second: prota_m_libro_14
+  - first:
+      213: -1829088951254412948
+    second: prota_m_libro_15
+  - first:
+      213: -8328548185851985094
+    second: prota_m_libro_16
+  - first:
+      213: 8171276928110884740
+    second: prota_m_libro_17
+  - first:
+      213: 4507828242395156339
+    second: prota_m_libro_18
+  - first:
+      213: -2138157800003297451
+    second: prota_m_libro_19
+  - first:
+      213: 4984668410406712129
+    second: prota_m_libro_20
+  - first:
+      213: 8296261804629938699
+    second: prota_m_libro_21
+  - first:
+      213: 1422239177585355426
+    second: prota_m_libro_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prota_m_libro_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 760
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d644f8e10be769ed0800000000000000
+      internalID: -2407597655890901907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 760
+        width: 189
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c53594f2e939b70800000000000000
+      internalID: 8904634814172453998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_3
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 21
+        width: 356
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c67c1c3fdde125a0800000000000000
+      internalID: -6547690840178002232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 760
+        width: 143
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2565a6b2aa5e8090800000000000000
+      internalID: -8030381430659521234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 757
+        width: 142
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c262b429080a3910800000000000000
+      internalID: 1817774234960814793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_5
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 757
+        width: 151
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931ebb2ee22664b00800000000000000
+      internalID: 812444736298934585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 758
+        width: 163
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ebcc70294fe4c60800000000000000
+      internalID: 7804444112312909450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_7
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 758
+        width: 169
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f736ecfc2f9ce65f0800000000000000
+      internalID: -761449242273356929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_8
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 760
+        width: 210
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94faad8920066d920800000000000000
+      internalID: 3014702564841795401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_9
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 761
+        width: 205
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f1235220c440d60800000000000000
+      internalID: 7855487222138675047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_10
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 761
+        width: 198
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac89ea374acd540800000000000000
+      internalID: 5034079300250815179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 440
+        width: 205
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8352ea3c9036ed0800000000000000
+      internalID: -2422081438550247176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_12
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 438
+        width: 183
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb8d4a9853ba6610800000000000000
+      internalID: 1615300609493011392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_13
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 439
+        width: 161
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2186c3a5b2632ea0800000000000000
+      internalID: -5898762554648919763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_14
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 423
+        width: 196
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11326b69b47114e60800000000000000
+      internalID: 7944656831076770577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_15
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 360
+        width: 256
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6193ed2a45cd96e0800000000000000
+      internalID: -1829088951254412948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_16
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 362
+        width: 268
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33819f2d8d0b6c80800000000000000
+      internalID: -8328548185851985094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_17
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 374
+        width: 266
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487f465a215366170800000000000000
+      internalID: 8171276928110884740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 287
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fcf6827e50f8e30800000000000000
+      internalID: 4507828242395156339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_19
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 10
+        width: 278
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f92113fccb352e0800000000000000
+      internalID: -2138157800003297451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_20
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 14
+        width: 299
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143376562891d2540800000000000000
+      internalID: 4984668410406712129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_21
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 21
+        width: 298
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02db94e72e322370800000000000000
+      internalID: 8296261804629938699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_m_libro_22
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 27
+        width: 327
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa6e952ffeccb310800000000000000
+      internalID: 1422239177585355426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
