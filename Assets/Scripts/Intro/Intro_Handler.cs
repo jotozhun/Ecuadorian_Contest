@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Video;
+
+public class Intro_Handler : MonoBehaviour
+{
+    [SerializeField]
+    private VideoPlayer video_player;
+
+    private void Start()
+    {
+        video_player.loopPointReached += LoadMitadMundo;
+    }
+
+    void LoadMitadMundo(VideoPlayer vp)
+    {
+        GameManager.instance.ChangeScene("MitadMundo");
+    }
+}
