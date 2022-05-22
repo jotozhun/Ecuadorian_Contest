@@ -13,7 +13,7 @@ public class GuayaquilManager : MonoBehaviour
     private GameObject prota_selected;
 
     [Header("Event Objects")]
-    [SerializeField] private Object event_objects;
+    [SerializeField] private GameObject event_objects;
 
     private GameManager game_manager;
 
