@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 37937715}
   m_Layer: 6
   m_Name: house_14
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,10 +192,9 @@ GameObject:
   m_Component:
   - component: {fileID: 46026764}
   - component: {fileID: 46026766}
-  - component: {fileID: 46026765}
   m_Layer: 6
   m_Name: faro_17_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -214,25 +213,6 @@ Transform:
   m_Father: {fileID: 695829663}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &46026765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46026763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &46026766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -269,10 +249,9 @@ GameObject:
   m_Component:
   - component: {fileID: 48640785}
   - component: {fileID: 48640787}
-  - component: {fileID: 48640786}
   m_Layer: 6
   m_Name: house_14_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,25 +270,6 @@ Transform:
   m_Father: {fileID: 37937714}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &48640786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48640784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &48640787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -365,7 +325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1829198818}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &85218333
 SpriteRenderer:
@@ -406,7 +366,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -355688381
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 7848e38481ecfc543be01bec21385c19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -430,7 +390,7 @@ GameObject:
   - component: {fileID: 85527199}
   m_Layer: 6
   m_Name: faro_2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -543,10 +503,9 @@ GameObject:
   m_Component:
   - component: {fileID: 120348992}
   - component: {fileID: 120348994}
-  - component: {fileID: 120348993}
   m_Layer: 6
   m_Name: house_11_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -565,25 +524,6 @@ Transform:
   m_Father: {fileID: 1133413476}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &120348993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120348991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &120348994
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -676,11 +616,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172184591}
-  - component: {fileID: 172184593}
   - component: {fileID: 172184592}
   m_Layer: 6
   m_Name: grass_7_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -742,28 +681,6 @@ PolygonCollider2D:
       - {x: 0.13964476, y: -0.2267138}
       - {x: 0.15521537, y: 0.39320856}
       - {x: 0.05509156, y: 0.9238003}
---- !u!114 &172184593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172184590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!1 &186274022
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,7 +693,7 @@ GameObject:
   - component: {fileID: 186274024}
   m_Layer: 6
   m_Name: faro_12
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -832,10 +749,9 @@ GameObject:
   m_Component:
   - component: {fileID: 188404426}
   - component: {fileID: 188404428}
-  - component: {fileID: 188404427}
   m_Layer: 6
   m_Name: faro_19_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,25 +770,6 @@ Transform:
   m_Father: {fileID: 914106013}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &188404427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188404425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &188404428
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -911,7 +808,7 @@ GameObject:
   - component: {fileID: 189455300}
   m_Layer: 6
   m_Name: house_6
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -967,11 +864,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 196882930}
-  - component: {fileID: 196882932}
   - component: {fileID: 196882931}
   m_Layer: 6
   m_Name: house_17_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1022,25 +918,6 @@ PolygonCollider2D:
       - {x: 5.35487, y: -2.0561259}
       - {x: 5.1258245, y: -0.84958386}
       - {x: 3.7156081, y: 1.6514461}
---- !u!114 &196882932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196882929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!1 &199715494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,10 +928,9 @@ GameObject:
   m_Component:
   - component: {fileID: 199715495}
   - component: {fileID: 199715497}
-  - component: {fileID: 199715496}
   m_Layer: 6
   m_Name: faro_13_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1073,25 +949,6 @@ Transform:
   m_Father: {fileID: 1915605669}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &199715496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199715494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &199715497
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1118,186 +975,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &208911972
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 208911974}
-  - component: {fileID: 208911973}
-  - component: {fileID: 208911978}
-  - component: {fileID: 208911977}
-  - component: {fileID: 208911976}
-  - component: {fileID: 208911975}
-  - component: {fileID: 208911979}
-  m_Layer: 0
-  m_Name: Dama_Tapada_Container
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!58 &208911973
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208911972}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.15, y: 0.93}
-  serializedVersion: 2
-  m_Radius: 5
---- !u!4 &208911974
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208911972}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.94755936, y: -0.98619556, z: -3.2314668}
-  m_LocalScale: {x: 0.67063487, y: 0.6676305, z: 0.6676305}
-  m_Children:
-  - {fileID: 778853165}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &208911975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208911972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  target: {fileID: 1004178160}
---- !u!114 &208911976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208911972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
-  radius: 1.23
-  height: 2
-  canMove: 1
-  maxSpeed: 2
-  gravity: {x: 0, y: 0, z: 0}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  centerOffsetCompatibility: NaN
-  repathRateCompatibility: NaN
-  canSearchCompability: 0
-  orientation: 1
-  enableRotation: 0
-  autoRepath:
-    mode: 2
-    interval: 0.5
-    sensitivity: 10
-    maximumInterval: 2
-    visualizeSensitivity: 0
-  targetCompatibility: {fileID: 0}
-  maxAcceleration: -2.5
-  rotationSpeed: 358.64
-  slowdownDistance: 0.6
-  pickNextWaypointDist: 2
-  endReachedDistance: 1.2
-  alwaysDrawGizmos: 0
-  slowWhenNotFacingTarget: 1
-  whenCloseToDestination: 0
-  constrainInsideGraph: 0
---- !u!114 &208911977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208911972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  drawGizmos: 1
-  detailedGizmos: 0
-  startEndModifier:
-    addPoints: 0
-    exactStartPoint: 3
-    exactEndPoint: 3
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  graphMask:
-    value: -1
---- !u!61 &208911978
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208911972}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.15, y: 0.02}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.34, y: 1.5}
-  m_EdgeRadius: 0
---- !u!114 &208911979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208911972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c623ee5bd0473b438d70adc143856d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character_animator: {fileID: 778853167}
-  character_rigidbody: {fileID: 1495827799}
-  speed_x: 4
-  speed_y: 3
-  speed: {x: 4, y: 3}
 --- !u!1 &220687555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,7 +987,7 @@ GameObject:
   - component: {fileID: 220687557}
   m_Layer: 6
   m_Name: faro5_l_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1367,7 +1044,7 @@ GameObject:
   - component: {fileID: 265312434}
   m_Layer: 6
   m_Name: house_17
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1427,7 +1104,7 @@ GameObject:
   - component: {fileID: 278295774}
   m_Layer: 6
   m_Name: house_15_1_col
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1484,7 +1161,7 @@ GameObject:
   - component: {fileID: 297465152}
   m_Layer: 6
   m_Name: house_15
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1545,7 +1222,7 @@ GameObject:
   - component: {fileID: 313767100}
   m_Layer: 6
   m_Name: faro_11
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1603,7 +1280,7 @@ GameObject:
   - component: {fileID: 351342044}
   m_Layer: 6
   m_Name: house_7
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1661,7 +1338,7 @@ GameObject:
   - component: {fileID: 410703631}
   m_Layer: 6
   m_Name: faro15_r_col
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1715,11 +1392,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 461221271}
-  - component: {fileID: 461221273}
   - component: {fileID: 461221272}
   m_Layer: 6
   m_Name: grass_3_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1786,28 +1462,6 @@ PolygonCollider2D:
       - {x: 0.13964476, y: -0.2267138}
       - {x: 0.15521537, y: 0.39320856}
       - {x: 0.05509156, y: 0.9238003}
---- !u!114 &461221273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461221270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!1 &501572796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1818,10 +1472,9 @@ GameObject:
   m_Component:
   - component: {fileID: 501572797}
   - component: {fileID: 501572799}
-  - component: {fileID: 501572798}
   m_Layer: 6
   m_Name: faro_18_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1840,25 +1493,6 @@ Transform:
   m_Father: {fileID: 1458141625}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &501572798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 501572796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &501572799
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1895,10 +1529,9 @@ GameObject:
   m_Component:
   - component: {fileID: 547273622}
   - component: {fileID: 547273624}
-  - component: {fileID: 547273623}
   m_Layer: 6
   m_Name: house_7_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1917,25 +1550,6 @@ Transform:
   m_Father: {fileID: 351342043}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &547273623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547273621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &547273624
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1972,10 +1586,9 @@ GameObject:
   m_Component:
   - component: {fileID: 566365936}
   - component: {fileID: 566365938}
-  - component: {fileID: 566365937}
   m_Layer: 6
   m_Name: faro_8_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1994,25 +1607,6 @@ Transform:
   m_Father: {fileID: 1305150062}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &566365937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566365935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &566365938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2086,7 +1680,7 @@ GameObject:
   - component: {fileID: 583798199}
   m_Layer: 6
   m_Name: house_4
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2144,10 +1738,9 @@ GameObject:
   m_Component:
   - component: {fileID: 613040369}
   - component: {fileID: 613040371}
-  - component: {fileID: 613040370}
   m_Layer: 6
   m_Name: faro_12_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2166,25 +1759,6 @@ Transform:
   m_Father: {fileID: 186274023}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &613040370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613040368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &613040371
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2223,7 +1797,7 @@ GameObject:
   - component: {fileID: 636102061}
   m_Layer: 6
   m_Name: faro_9
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2280,7 +1854,7 @@ GameObject:
   - component: {fileID: 649636657}
   m_Layer: 6
   m_Name: grass_6
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2378,7 +1952,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655848290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.07, y: 10.55, z: -10}
+  m_LocalPosition: {x: 23.07, y: 9.74, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2397,7 +1971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FOLLOWSPEED: 2
-  player_target: {fileID: 1004178160}
+  player_target: {fileID: 0}
   minPosition: {x: -0.37, y: -5.71}
   maxPosition: {x: 68.1, y: 32.65}
 --- !u!1 &659518935
@@ -2468,7 +2042,7 @@ GameObject:
   - component: {fileID: 668379940}
   m_Layer: 6
   m_Name: grass_7
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2497,11 +2071,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672479535}
-  - component: {fileID: 672479537}
   - component: {fileID: 672479536}
   m_Layer: 6
   m_Name: grass_5_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2562,28 +2135,6 @@ PolygonCollider2D:
       - {x: 0.13964476, y: -0.2267138}
       - {x: 0.15521537, y: 0.39320856}
       - {x: 0.05509156, y: 0.9238003}
---- !u!114 &672479537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672479534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!1 &686590211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2593,11 +2144,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 686590212}
-  - component: {fileID: 686590214}
   - component: {fileID: 686590213}
   m_Layer: 6
   m_Name: grass_2_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2632,28 +2182,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 1
---- !u!114 &686590214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686590211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!1 &695829662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2666,7 +2194,7 @@ GameObject:
   - component: {fileID: 695829664}
   m_Layer: 6
   m_Name: faro_17
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2724,7 +2252,7 @@ GameObject:
   - component: {fileID: 704902461}
   m_Layer: 6
   m_Name: faro_4
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2780,10 +2308,9 @@ GameObject:
   m_Component:
   - component: {fileID: 726125753}
   - component: {fileID: 726125755}
-  - component: {fileID: 726125754}
   m_Layer: 6
   m_Name: faro_4_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2802,25 +2329,6 @@ Transform:
   m_Father: {fileID: 704902460}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &726125754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726125752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &726125755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2847,88 +2355,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &740069020
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 740069022}
-  - component: {fileID: 740069021}
-  m_Layer: 0
-  m_Name: dama_tapada_sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &740069021
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740069020}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5755e0d74159e3044b44331d0ad5b3fd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 19.2, y: 17}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &740069022
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740069020}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.92308617, y: 0.38902712, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &753699128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,10 +2365,9 @@ GameObject:
   m_Component:
   - component: {fileID: 753699129}
   - component: {fileID: 753699131}
-  - component: {fileID: 753699130}
   m_Layer: 6
   m_Name: faro_11_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2961,25 +2386,6 @@ Transform:
   m_Father: {fileID: 313767099}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &753699130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 753699128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &753699131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3016,10 +2422,9 @@ GameObject:
   m_Component:
   - component: {fileID: 765338593}
   - component: {fileID: 765338595}
-  - component: {fileID: 765338594}
   m_Layer: 6
   m_Name: faro_9_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3038,25 +2443,6 @@ Transform:
   m_Father: {fileID: 2083165116}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &765338594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765338592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &765338595
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3083,108 +2469,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &778853164
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 778853165}
-  - component: {fileID: 778853166}
-  - component: {fileID: 778853167}
-  m_Layer: 0
-  m_Name: Dama_Tapada
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &778853165
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778853164}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.78, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 208911974}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &778853166
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778853164}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -355688381
-  m_SortingLayer: 2
-  m_SortingOrder: 2
-  m_Sprite: {fileID: -1429944217065847041, guid: 9e7ac3b136993c7489da67bc60738be3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.51, y: 5.05}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!95 &778853167
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778853164}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2b20db2c7b24cbc48a0fb3e92cfdce7a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &811198249
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,7 +2481,7 @@ GameObject:
   - component: {fileID: 811198251}
   m_Layer: 6
   m_Name: faro_6
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3252,11 +2536,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 819662896}
-  - component: {fileID: 819662898}
   - component: {fileID: 819662897}
   m_Layer: 6
   m_Name: grass_4_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3317,28 +2600,6 @@ PolygonCollider2D:
       - {x: 0.13964476, y: -0.2267138}
       - {x: 0.15521537, y: 0.39320856}
       - {x: 0.05509156, y: 0.9238003}
---- !u!114 &819662898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819662895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!1 &824565831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,10 +2610,9 @@ GameObject:
   m_Component:
   - component: {fileID: 824565832}
   - component: {fileID: 824565834}
-  - component: {fileID: 824565833}
   m_Layer: 6
   m_Name: house_12_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3371,25 +2631,6 @@ Transform:
   m_Father: {fileID: 2026914276}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &824565833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824565831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &824565834
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3426,10 +2667,9 @@ GameObject:
   m_Component:
   - component: {fileID: 827486662}
   - component: {fileID: 827486664}
-  - component: {fileID: 827486663}
   m_Layer: 6
   m_Name: house_2_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3448,25 +2688,6 @@ Transform:
   m_Father: {fileID: 2128994394}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &827486663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827486661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &827486664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3504,7 +2725,7 @@ GameObject:
   - component: {fileID: 912010144}
   m_Layer: 6
   m_Name: grass_4
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3536,7 +2757,7 @@ GameObject:
   - component: {fileID: 914106014}
   m_Layer: 6
   m_Name: faro_19
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3592,10 +2813,9 @@ GameObject:
   m_Component:
   - component: {fileID: 915127440}
   - component: {fileID: 915127442}
-  - component: {fileID: 915127441}
   m_Layer: 6
   m_Name: faro_7_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3614,25 +2834,6 @@ Transform:
   m_Father: {fileID: 1597934221}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &915127441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915127439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &915127442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3669,10 +2870,9 @@ GameObject:
   m_Component:
   - component: {fileID: 945825264}
   - component: {fileID: 945825266}
-  - component: {fileID: 945825265}
   m_Layer: 6
   m_Name: house_5_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3691,25 +2891,6 @@ Transform:
   m_Father: {fileID: 1765586143}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &945825265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945825263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &945825266
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3746,10 +2927,9 @@ GameObject:
   m_Component:
   - component: {fileID: 961127785}
   - component: {fileID: 961127787}
-  - component: {fileID: 961127786}
   m_Layer: 6
   m_Name: grass_1_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3768,28 +2948,6 @@ Transform:
   m_Father: {fileID: 1261959088}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &961127786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 961127784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!60 &961127787
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3828,11 +2986,6 @@ PolygonCollider2D:
       - {x: 0.2519329, y: 0.8562664}
       - {x: -1.0452013, y: 0.8789632}
       - {x: -1.2774973, y: 2.113921}
---- !u!4 &1004178160 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-  m_PrefabInstance: {fileID: 2072723852}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1012626762
 GameObject:
   m_ObjectHideFlags: 0
@@ -3842,11 +2995,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012626763}
-  - component: {fileID: 1012626765}
   - component: {fileID: 1012626764}
   m_Layer: 6
   m_Name: house_14_1_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3897,25 +3049,6 @@ PolygonCollider2D:
       - {x: -5.4611316, y: -2.6908789}
       - {x: 5.36772, y: -2.6792266}
       - {x: 1.0289087, y: -1.1358812}
---- !u!114 &1012626765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012626762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
 --- !u!1 &1021226495
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,10 +3059,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1021226496}
   - component: {fileID: 1021226498}
-  - component: {fileID: 1021226497}
   m_Layer: 6
   m_Name: faro11_l_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3948,25 +3080,6 @@ Transform:
   m_Father: {fileID: 1133413476}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1021226497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021226495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
 --- !u!61 &1021226498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4005,7 +3118,7 @@ GameObject:
   - component: {fileID: 1032656761}
   m_Layer: 6
   m_Name: house_13
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4061,10 +3174,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1054324240}
   - component: {fileID: 1054324242}
-  - component: {fileID: 1054324241}
   m_Layer: 6
   m_Name: faro_10_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4083,25 +3195,6 @@ Transform:
   m_Father: {fileID: 1078657012}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1054324241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1054324239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1054324242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4140,7 +3233,7 @@ GameObject:
   - component: {fileID: 1061646022}
   m_Layer: 6
   m_Name: faro_14
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4198,7 +3291,7 @@ GameObject:
   - component: {fileID: 1075620196}
   m_Layer: 6
   m_Name: house_8
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4256,7 +3349,7 @@ GameObject:
   - component: {fileID: 1078657013}
   m_Layer: 6
   m_Name: faro_10
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4314,7 +3407,7 @@ GameObject:
   - component: {fileID: 1084494961}
   m_Layer: 6
   m_Name: faro17_r_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4371,7 +3464,7 @@ GameObject:
   - component: {fileID: 1133413477}
   m_Layer: 6
   m_Name: house_11
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4433,7 +3526,7 @@ GameObject:
   - component: {fileID: 1143962365}
   m_Layer: 6
   m_Name: faro12_l_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4488,10 +3581,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1211537783}
   - component: {fileID: 1211537785}
-  - component: {fileID: 1211537784}
   m_Layer: 6
   m_Name: faro_6_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4510,25 +3602,6 @@ Transform:
   m_Father: {fileID: 811198250}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1211537784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211537782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1211537785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4639,7 +3712,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1237330847
 GameObject:
@@ -4670,7 +3743,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1829198818}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1237330849
 SpriteRenderer:
@@ -4711,7 +3784,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -355688381
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 1c6e34564150caf4eb6590df233d1696, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4735,7 +3808,7 @@ GameObject:
   - component: {fileID: 1261959089}
   m_Layer: 6
   m_Name: grass_1
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4793,7 +3866,7 @@ GameObject:
   - component: {fileID: 1264738982}
   m_Layer: 6
   m_Name: faro17_l_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4848,10 +3921,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1277349172}
   - component: {fileID: 1277349174}
-  - component: {fileID: 1277349173}
   m_Layer: 6
   m_Name: faro_2_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4870,25 +3942,6 @@ Transform:
   m_Father: {fileID: 85527198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1277349173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277349171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1277349174
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4925,10 +3978,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1288346271}
   - component: {fileID: 1288346273}
-  - component: {fileID: 1288346272}
   m_Layer: 6
   m_Name: faro_20_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4947,25 +3999,6 @@ Transform:
   m_Father: {fileID: 1363865778}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1288346272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288346270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1288346273
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5002,10 +4035,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1301505974}
   - component: {fileID: 1301505976}
-  - component: {fileID: 1301505975}
   m_Layer: 6
   m_Name: house_10_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5024,25 +4056,6 @@ Transform:
   m_Father: {fileID: 1528927558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1301505975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301505973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1301505976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5081,7 +4094,7 @@ GameObject:
   - component: {fileID: 1305150063}
   m_Layer: 6
   m_Name: faro_8
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5127,6 +4140,54 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.36, y: 0.06}
   m_EdgeRadius: 0
+--- !u!1 &1305361226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305361227}
+  - component: {fileID: 1305361228}
+  m_Layer: 0
+  m_Name: Event_1_Atahualpa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1305361227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305361226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.72, y: -10.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8975527611906113928}
+  m_Father: {fileID: 1723810108}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1305361228
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305361226}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.31, y: -0.19}
+  m_Size: {x: 5.28, y: 3.35}
+  m_Direction: 1
 --- !u!1 &1318076547
 GameObject:
   m_ObjectHideFlags: 0
@@ -5137,10 +4198,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1318076548}
   - component: {fileID: 1318076550}
-  - component: {fileID: 1318076549}
   m_Layer: 6
   m_Name: house_4_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5159,25 +4219,6 @@ Transform:
   m_Father: {fileID: 583798198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1318076549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1318076547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1318076550
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5214,10 +4255,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1329861959}
   - component: {fileID: 1329861961}
-  - component: {fileID: 1329861960}
   m_Layer: 6
   m_Name: house_1_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5236,25 +4276,6 @@ Transform:
   m_Father: {fileID: 1735277937}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1329861960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1329861958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1329861961
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5293,7 +4314,7 @@ GameObject:
   - component: {fileID: 1363865779}
   m_Layer: 6
   m_Name: faro_20
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5395,7 +4416,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -355688381
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 54f8a88d08a3439459529b0ea451079e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5419,7 +4440,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1829198818}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1394830630
 GameObject:
@@ -5432,7 +4453,7 @@ GameObject:
   - component: {fileID: 1394830631}
   m_Layer: 6
   m_Name: grass_5
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5481,7 +4502,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1829198818}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1401621495
 SpriteRenderer:
@@ -5522,7 +4543,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -355688381
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: ba8e3f090c27ac544af2e5f09c6d762e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5546,7 +4567,7 @@ GameObject:
   - component: {fileID: 1404760068}
   m_Layer: 6
   m_Name: faro15_l_col
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5602,7 +4623,7 @@ GameObject:
   - component: {fileID: 1411612632}
   m_Layer: 6
   m_Name: grass_8
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5632,10 +4653,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1423948885}
   - component: {fileID: 1423948887}
-  - component: {fileID: 1423948886}
   m_Layer: 6
   m_Name: house_16_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5654,25 +4674,6 @@ Transform:
   m_Father: {fileID: 1974012328}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1423948886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423948884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1423948887
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5709,10 +4710,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1424966517}
   - component: {fileID: 1424966519}
-  - component: {fileID: 1424966518}
   m_Layer: 6
   m_Name: faro_3_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5731,25 +4731,6 @@ Transform:
   m_Father: {fileID: 1619886125}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1424966518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424966516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1424966519
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5788,7 +4769,7 @@ GameObject:
   - component: {fileID: 1446643535}
   m_Layer: 6
   m_Name: faro6_l_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5845,7 +4826,7 @@ GameObject:
   - component: {fileID: 1458141626}
   m_Layer: 6
   m_Name: faro_18
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5903,7 +4884,7 @@ GameObject:
   - component: {fileID: 1494524473}
   m_Layer: 6
   m_Name: faro_5
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5949,11 +4930,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.36, y: 0.06}
   m_EdgeRadius: 0
---- !u!50 &1495827799 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 1762191890154078310, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-  m_PrefabInstance: {fileID: 2072723852}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1497549664
 GameObject:
   m_ObjectHideFlags: 0
@@ -5966,7 +4942,7 @@ GameObject:
   - component: {fileID: 1497549666}
   m_Layer: 6
   m_Name: faro_15
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6024,7 +5000,7 @@ GameObject:
   - component: {fileID: 1499508188}
   m_Layer: 6
   m_Name: faro3_r_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6069,88 +5045,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1501148283
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1501148285}
-  - component: {fileID: 1501148284}
-  m_Layer: 0
-  m_Name: atahualpa_walk_left_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1501148284
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501148283}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -355688381
-  m_SortingLayer: 2
-  m_SortingOrder: 2
-  m_Sprite: {fileID: -5467152487618750073, guid: afdd7ed2477cb164aa70e6666d95937a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.96, y: 5.36}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1501148285
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501148283}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.23, y: 3.62, z: 0}
-  m_LocalScale: {x: 0.44143, y: 0.44143, z: 0.44143}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503177490
 GameObject:
   m_ObjectHideFlags: 0
@@ -6163,7 +5057,7 @@ GameObject:
   - component: {fileID: 1503177492}
   m_Layer: 6
   m_Name: faro4_r_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6219,7 +5113,7 @@ GameObject:
   - component: {fileID: 1511711936}
   m_Layer: 6
   m_Name: grass_3
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6251,7 +5145,7 @@ GameObject:
   - component: {fileID: 1528927559}
   m_Layer: 6
   m_Name: house_10
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6309,7 +5203,7 @@ GameObject:
   - component: {fileID: 1597934222}
   m_Layer: 6
   m_Name: faro_7
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6367,7 +5261,7 @@ GameObject:
   - component: {fileID: 1619886126}
   m_Layer: 6
   m_Name: faro_3
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6425,7 +5319,7 @@ GameObject:
   - component: {fileID: 1622146091}
   m_Layer: 6
   m_Name: faro12_r_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6480,10 +5374,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1640573144}
   - component: {fileID: 1640573146}
-  - component: {fileID: 1640573145}
   m_Layer: 6
   m_Name: house_3_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6502,25 +5395,6 @@ Transform:
   m_Father: {fileID: 1810380636}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1640573145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640573143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1640573146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6557,10 +5431,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1664475659}
   - component: {fileID: 1664475661}
-  - component: {fileID: 1664475660}
   m_Layer: 6
   m_Name: house_15_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6579,25 +5452,6 @@ Transform:
   m_Father: {fileID: 297465151}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1664475660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664475658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1664475661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6634,10 +5488,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1664957753}
   - component: {fileID: 1664957755}
-  - component: {fileID: 1664957754}
   m_Layer: 6
   m_Name: faro_9_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6656,25 +5509,6 @@ Transform:
   m_Father: {fileID: 636102060}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1664957754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664957752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1664957755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6711,10 +5545,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1681721175}
   - component: {fileID: 1681721177}
-  - component: {fileID: 1681721176}
   m_Layer: 6
   m_Name: house_6_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6733,25 +5566,6 @@ Transform:
   m_Father: {fileID: 189455299}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1681721176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681721174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1681721177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6778,6 +5592,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.81, y: 4.02}
   m_EdgeRadius: 0
+--- !u!1 &1723810107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723810108}
+  m_Layer: 0
+  m_Name: Events_Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1723810108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723810107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1305361227}
+  m_Father: {fileID: 1829198818}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1735277936
 GameObject:
   m_ObjectHideFlags: 0
@@ -6790,7 +5635,7 @@ GameObject:
   - component: {fileID: 1735277938}
   m_Layer: 6
   m_Name: house_1
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6975,10 +5820,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1746493093}
   - component: {fileID: 1746493095}
-  - component: {fileID: 1746493094}
   m_Layer: 6
   m_Name: faro_14_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6997,25 +5841,6 @@ Transform:
   m_Father: {fileID: 1061646021}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1746493094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746493092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1746493095
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7052,10 +5877,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1751849992}
   - component: {fileID: 1751849994}
-  - component: {fileID: 1751849993}
   m_Layer: 6
   m_Name: faro11_r_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7074,25 +5898,6 @@ Transform:
   m_Father: {fileID: 1133413476}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1751849993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1751849991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
 --- !u!61 &1751849994
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7129,10 +5934,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1752336299}
   - component: {fileID: 1752336301}
-  - component: {fileID: 1752336300}
   m_Layer: 6
   m_Name: house_9_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7151,25 +5955,6 @@ Transform:
   m_Father: {fileID: 2103104095}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1752336300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1752336298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1752336301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7208,7 +5993,7 @@ GameObject:
   - component: {fileID: 1765586144}
   m_Layer: 6
   m_Name: house_5
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7267,7 +6052,7 @@ GameObject:
   - component: {fileID: 1787821407}
   m_Layer: 6
   m_Name: faro11_l_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7324,7 +6109,7 @@ GameObject:
   - component: {fileID: 1810380637}
   m_Layer: 6
   m_Name: house_3
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7381,10 +6166,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1812737995}
   - component: {fileID: 1812737997}
-  - component: {fileID: 1812737996}
   m_Layer: 6
   m_Name: house_13_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7403,25 +6187,6 @@ Transform:
   m_Father: {fileID: 1032656760}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1812737996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812737994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1812737997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7527,14 +6292,15 @@ Transform:
   m_LocalPosition: {x: 34.05, y: 13.53, z: -3.2314668}
   m_LocalScale: {x: 0.95804983, y: 0.9537579, z: 0.9537579}
   m_Children:
-  - {fileID: 85218332}
   - {fileID: 2070102184}
-  - {fileID: 1391328479}
   - {fileID: 1887413763}
-  - {fileID: 1401621494}
   - {fileID: 1237330848}
+  - {fileID: 85218332}
+  - {fileID: 1391328479}
+  - {fileID: 1401621494}
   - {fileID: 569983557}
   - {fileID: 1932570046}
+  - {fileID: 1723810108}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7550,7 +6316,7 @@ GameObject:
   - component: {fileID: 1841060682}
   m_Layer: 6
   m_Name: faro11_r_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7605,10 +6371,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1848864775}
   - component: {fileID: 1848864777}
-  - component: {fileID: 1848864776}
   m_Layer: 6
   m_Name: house_8_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7627,25 +6392,6 @@ Transform:
   m_Father: {fileID: 1075620195}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1848864776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848864774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &1848864777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7684,7 +6430,7 @@ GameObject:
   - component: {fileID: 1857119923}
   m_Layer: 6
   m_Name: house_1_col
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7729,6 +6475,54 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.81, y: 4.02}
   m_EdgeRadius: 0
+--- !u!1 &1857712924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1857712925}
+  - component: {fileID: 1857712926}
+  m_Layer: 0
+  m_Name: GuayaquilManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1857712925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857712924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.803809, y: 2.4835875, z: -16.443502}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1857712926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857712924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c964fdddffa7e488c6cfa81ec34513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera_controller: {fileID: 655848294}
+  prota_parent_transform: {fileID: 1829198818}
+  local_position: {x: -38, y: -14, z: 0}
+  local_scale: {x: 1.15, y: 1.15, z: 1.15}
+  event_objects: {fileID: 0}
 --- !u!1 &1887413762
 GameObject:
   m_ObjectHideFlags: 0
@@ -7758,7 +6552,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1829198818}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1887413764
 SpriteRenderer:
@@ -7823,7 +6617,7 @@ GameObject:
   - component: {fileID: 1915605670}
   m_Layer: 6
   m_Name: faro_13
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7878,11 +6672,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1919942909}
-  - component: {fileID: 1919942911}
   - component: {fileID: 1919942910}
   m_Layer: 6
   m_Name: grass_8_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7944,28 +6737,6 @@ PolygonCollider2D:
       - {x: 0.13964476, y: -0.2267138}
       - {x: 0.15521537, y: 0.39320856}
       - {x: 0.05509156, y: 0.9238003}
---- !u!114 &1919942911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919942908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!1 &1920378816
 GameObject:
   m_ObjectHideFlags: 0
@@ -7978,7 +6749,7 @@ GameObject:
   - component: {fileID: 1920378818}
   m_Layer: 6
   m_Name: faro4_l_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8110,7 +6881,7 @@ GameObject:
   - component: {fileID: 1946362807}
   m_Layer: 6
   m_Name: faro_1
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8168,7 +6939,7 @@ GameObject:
   - component: {fileID: 1974012329}
   m_Layer: 6
   m_Name: house_16
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8226,7 +6997,7 @@ GameObject:
   - component: {fileID: 2026914277}
   m_Layer: 6
   m_Name: house_12
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8283,11 +7054,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2043535315}
-  - component: {fileID: 2043535317}
   - component: {fileID: 2043535316}
   m_Layer: 6
   m_Name: grass_6_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8348,28 +7118,6 @@ PolygonCollider2D:
       - {x: 0.13964476, y: -0.2267138}
       - {x: 0.15521537, y: 0.39320856}
       - {x: 0.05509156, y: 0.9238003}
---- !u!114 &2043535317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043535314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 1391328478}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 5
-    order_in_layer_exit: 1
 --- !u!1 &2070102183
 GameObject:
   m_ObjectHideFlags: 0
@@ -8399,7 +7147,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1829198818}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2070102185
 SpriteRenderer:
@@ -8452,75 +7200,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &2072723852
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.1874075
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078304, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762191890154078311, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
-      propertyPath: m_Name
-      value: Prota_M_Container
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
 --- !u!1 &2078490899
 GameObject:
   m_ObjectHideFlags: 0
@@ -8531,10 +7210,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2078490900}
   - component: {fileID: 2078490902}
-  - component: {fileID: 2078490901}
   m_Layer: 6
   m_Name: faro_1_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8553,25 +7231,6 @@ Transform:
   m_Father: {fileID: 1946362806}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2078490901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078490899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &2078490902
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8582,8 +7241,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -8610,7 +7269,7 @@ GameObject:
   - component: {fileID: 2083165117}
   m_Layer: 6
   m_Name: faro_16
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8666,10 +7325,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2097700569}
   - component: {fileID: 2097700571}
-  - component: {fileID: 2097700570}
   m_Layer: 6
   m_Name: faro_15_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8688,25 +7346,6 @@ Transform:
   m_Father: {fileID: 1497549665}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2097700570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097700568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &2097700571
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8745,7 +7384,7 @@ GameObject:
   - component: {fileID: 2103104096}
   m_Layer: 6
   m_Name: house_9
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8804,7 +7443,7 @@ GameObject:
   - component: {fileID: 2128994395}
   m_Layer: 6
   m_Name: house_2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8860,10 +7499,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2129316630}
   - component: {fileID: 2129316632}
-  - component: {fileID: 2129316631}
   m_Layer: 6
   m_Name: faro_5_trig
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8882,25 +7520,6 @@ Transform:
   m_Father: {fileID: 1494524472}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2129316631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129316629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45e0cfdc7af0c83479e6b704dc1b13b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top_down_layer_list:
-  - object_sprite: {fileID: 85218333}
-    order_in_layer_enter: 3
-    order_in_layer_exit: 1
-  - object_sprite: {fileID: 1237330849}
-    order_in_layer_enter: 4
-    order_in_layer_exit: 1
 --- !u!61 &2129316632
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8938,7 +7557,7 @@ GameObject:
   - component: {fileID: 2133129007}
   m_Layer: 6
   m_Name: grass_2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8970,7 +7589,7 @@ GameObject:
   - component: {fileID: 2141176695}
   m_Layer: 6
   m_Name: house_9_1_collid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9015,3 +7634,194 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.93, y: 2.54}
   m_EdgeRadius: 0
+--- !u!95 &8975527611877058106
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975527611877058241}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9a6c028865d07f47b5c97efa5483113, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &8975527611877058241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8975527611877058247}
+  - component: {fileID: 8975527611877058246}
+  - component: {fileID: 8975527611877058106}
+  - component: {fileID: 8975527611877058245}
+  - component: {fileID: 8975527611877058244}
+  m_Layer: 0
+  m_Name: Atahualpa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &8975527611877058244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975527611877058241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300f7ac0fe1be7341add9393f4d4ab04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character_sprite_render: {fileID: 8975527611877058246}
+--- !u!61 &8975527611877058245
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975527611877058241}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.47}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.96, y: 5.36}
+    newSize: {x: 1.96, y: 5.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.96, y: 2.38}
+  m_EdgeRadius: 0
+--- !u!212 &8975527611877058246
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975527611877058241}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -355688381
+  m_SortingLayer: 2
+  m_SortingOrder: 7
+  m_Sprite: {fileID: -5467152487618750073, guid: afdd7ed2477cb164aa70e6666d95937a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.96, y: 5.36}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &8975527611877058247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975527611877058241}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.44143, y: 0.44143, z: 0.44143}
+  m_Children: []
+  m_Father: {fileID: 8975527611906113928}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &8975527611906113928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975527611906113930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8975527611877058247}
+  m_Father: {fileID: 1305361227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8975527611906113930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8975527611906113928}
+  - component: {fileID: 8975527611906113931}
+  m_Layer: 0
+  m_Name: Atahualpa_Container
+  m_TagString: Atahualpa
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!58 &8975527611906113931
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975527611906113930}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.71

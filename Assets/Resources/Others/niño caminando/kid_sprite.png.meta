@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: 287444b464abf2a44a0536a51a1aa78a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3348652247080951117
+    second: kid_sprite_0
+  - first:
+      213: -5346966846715204119
+    second: kid_sprite_1
+  - first:
+      213: -6751031799206757575
+    second: kid_sprite_2
+  - first:
+      213: 6737627346928255761
+    second: kid_sprite_3
+  - first:
+      213: -4575729917859464216
+    second: kid_sprite_4
+  - first:
+      213: 3638285998535425189
+    second: kid_sprite_5
+  - first:
+      213: -757723772520938760
+    second: kid_sprite_7
+  - first:
+      213: 7924049704927382732
+    second: kid_sprite_9
+  - first:
+      213: -4418136978590894770
+    second: kid_sprite_12
+  - first:
+      213: -6154987334880550806
+    second: kid_sprite_15
+  - first:
+      213: -3258746491362131875
+    second: kid_sprite_17
+  - first:
+      213: -8444236259993974725
+    second: kid_sprite_19
+  - first:
+      213: -7162338805916419401
+    second: kid_sprite_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +80,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +114,318 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: kid_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 5293
+        width: 196
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dd29f0a7dc87e20800000000000000
+      internalID: 3348652247080951117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 5293
+        width: 218
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edefbb7bf1cbc5b0800000000000000
+      internalID: -5346966846715204119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 5293
+        width: 224
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b3aecd8548f42a0800000000000000
+      internalID: -6751031799206757575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 5293
+        width: 194
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113cd92ef5cd08d50800000000000000
+      internalID: 6737627346928255761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 5293
+        width: 218
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebfbd902edbf70c0800000000000000
+      internalID: -4575729917859464216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 5293
+        width: 224
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac3bf5d6d9cd7230800000000000000
+      internalID: 3638285998535425189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 5290
+        width: 195
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f245055e360c75f0800000000000000
+      internalID: -757723772520938760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 5291
+        width: 227
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc4cb42931e7fd60800000000000000
+      internalID: 7924049704927382732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 5290
+        width: 195
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45721683df9fa2c0800000000000000
+      internalID: -4418136978590894770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 5290
+        width: 195
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60aa6321a7159aa0800000000000000
+      internalID: -6154987334880550806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 5291
+        width: 195
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d504f49e45b96c2d0800000000000000
+      internalID: -3258746491362131875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 5290
+        width: 195
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38069b6cdb00da80800000000000000
+      internalID: -8444236259993974725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4577
+        width: 196
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba3b50cdc24a9c90800000000000000
+      internalID: -7162338805916419401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

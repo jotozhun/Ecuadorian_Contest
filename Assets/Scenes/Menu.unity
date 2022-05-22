@@ -935,6 +935,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d03b9fa32609ab48b4c268b6a42eee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  protas_objs:
+  - {fileID: 1762191890154078311, guid: ebc5427ef6a80f8408d92cf114f0c57a, type: 3}
+  - {fileID: 2070281102727076176, guid: b2edce234c87ba6489887c4284a07b00, type: 3}
+  dama_tapada_obj: {fileID: 341213303701296143, guid: c1bbd28552f85604cb0c23601feadb92, type: 3}
+  kid_obj: {fileID: 1339282931802787988, guid: 877343c03ef06904ca5886d60e5fcda2, type: 3}
+  atahualpa_obj: {fileID: 4885781442331618121, guid: 0b5298b4ed2fab94f98556b4e3e47631, type: 3}
   character_selected: 0
 --- !u!1 &647785901
 GameObject:

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Book
+  - Enemy
+  - Obstacle
+  - Atahualpa
   layers:
   - Default
   - TransparentFX
